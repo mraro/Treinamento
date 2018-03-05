@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Eaze</string>
+
+    <string name="title_activity_fullscreen_">Fullscreen_Activity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="professional_secure_medical_cannabis_delivery_service"><![CDATA[Professional & Secure Medical Cannabis Delivery Service]]></string>
+</resources>

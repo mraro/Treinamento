@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundWhite"
+    tools:context="com.example.t_ex_140542.treinamento.Main_Activity">
+<!--BOTTOM TOP-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/circlevertical"
+
+            android:gravity="center"
+            >
+        </TextView>
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/points"
+            />
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/circlevertical"
+            android:text="2"
+            android:gravity="center"
+            />
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/points"
+            />
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/circlevertical"
+            android:text="3"
+            android:gravity="center"
+            />
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/points"
+            />
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/circlevertical"
+            android:text="4"
+            android:gravity="center"
+            />
+    </LinearLayout>
+<!--COMEÇO DA PAGINA-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marijuana Approval"
+        android:textSize="37dp"
+        android:gravity="center"
+        />
+
+        <TextView
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I'm a Medical Marijuana patient and here is my:"
+            android:textSize="27dp"
+            android:textAlignment="center"
+            />
+
+        <RelativeLayout
+            android:layout_width="220dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/circlevertical"
+            android:background="@drawable/ic_web_black_24dp"
+            />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_check_white_24dp"
+                android:background="@drawable/circlevertical"/>
+        </RelativeLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Physicians Last Name"
+            android:background="@color/white"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Physicians Office Phone Number"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:paddingTop="10dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            >
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:background="@color/blueLight"
+            android:text="UPLOAD PHOTO"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="NEXT"
+            android:background="@color/cinza"
+            android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="We'll also need a picture of your Recommendation Letter"/>
+    </LinearLayout>
+</RelativeLayout>
